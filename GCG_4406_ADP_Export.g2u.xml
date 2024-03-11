@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>SelectionOnly FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>183</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>183</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>183</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.F_Main..create</string>
+        <string>Gui.F_Main..caption("ADP Entry")</string>
+        <string>Gui.F_Main..size(2100,2790)</string>
+        <string>Gui.F_Main..position(0,0)</string>
+        <string>Gui.F_Main..event(UnLoad,unload)</string>
+        <string>Gui.F_Main..alwaysontop(True)</string>
+        <string>Gui.F_Main..fontname("arial")</string>
+        <string>Gui.F_Main..fontsize(8)</string>
+        <string>Gui.F_Main..forecolor(0)</string>
+        <string>Gui.F_Main..fontstyle(False,False,False,False,False)</string>
+        <string>Gui.F_Main..BackColor(-2147483633)</string>
+        <string>Gui.F_Main..controlbox(True)</string>
+        <string>Gui.F_Main..maxbutton(False)</string>
+        <string>Gui.F_Main..minbutton(True)</string>
+        <string>Gui.F_Main..mousepointer(0)</string>
+        <string>Gui.F_Main..moveable(True)</string>
+        <string>Gui.F_Main..sizeable(False)</string>
+        <string>Gui.F_Main..ShowInTaskBar(True)</string>
+        <string>Gui.F_Main..titlebar(True)</string>
+        <string>Gui.F_Main..MinX(0)</string>
+        <string>Gui.F_Main..MinY(0)</string>
+        <string>Gui.F_Main.txt1.create(textbox,"",True,1215,315,0,200,400,True,0,"arial",8,-2147483643,1)</string>
+        <string>Gui.F_Main.txt1.text("")</string>
+        <string>Gui.F_Main.txt1.maxLength(3)</string>
+        <string>Gui.F_Main.lbl1.create(label,"ADP Company",True,1320,255,1,195,195,True,0,"arial",8,-2147483633,0)</string>
+        <string>Gui.F_Main.txt2.create(textbox,"",True,1215,315,0,200,1200,True,0,"arial",8,-2147483643,1)</string>
+        <string>Gui.F_Main.txt2.text("")</string>
+        <string>Gui.F_Main.txt2.maxLength(8)</string>
+        <string>Gui.F_Main.lbl2.create(label,"Batch Number",True,1320,255,1,195,1005,True,0,"arial",8,-2147483633,0)</string>
+        <string>Gui.F_Main.cmdExport.create(button)</string>
+        <string>Gui.F_Main.cmdExport.caption("Export")</string>
+        <string>Gui.F_Main.cmdExport.visible(True)</string>
+        <string>Gui.F_Main.cmdExport.size(975,375)</string>
+        <string>Gui.F_Main.cmdExport.zorder(0)</string>
+        <string>Gui.F_Main.cmdExport.position(300,1700)</string>
+        <string>Gui.F_Main.cmdExport.enabled(True)</string>
+        <string>Gui.F_Main.cmdExport.fontname("arial")</string>
+        <string>Gui.F_Main.cmdExport.fontsize(8)</string>
+        <string>Gui.F_Main.cmdExport.event(Click,Process)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.DSN.Declare(String)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>Gui.F_main..Show</string>
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Process.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Process_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string>Variable.local.export.declare(String)</string>
+        <string>Variable.local.export.redim(0,6)</string>
+        <string>Variable.local.hold.declare(String)</string>
+        <string>Variable.local.query.declare(String)</string>
+        <string>Variable.Local.I.declare(Long)</string>
+        <string>Variable.local.DIR.declare(String)</string>
+        <string>Variable.local.date.declare(String)</string>
+        <string>Variable.local.file.declare(Long)</string>
+        <string>Variable.local.filename.declare(String)</string>
+        <string>Variable.local.sResult.declare(String)</string>
+        <string>Variable.Local.time.Declare(String)</string>
+        <string>Variable.Local.id.Declare(String)</string>
+        <string>V.Local.shold.Declare(String)</string>
+        <string>v.Local.sname.Declare(String)</string>
+        <string>v.Local.sfirst.Declare(String)</string>
+        <string>v.Local.slast.Declare(String)</string>
+        <string>v.Local.ssql.Declare(String)</string>
+        <string />
+        <string>V.Local.shold.Set(V.Screen.F_Main!txt1.Text)</string>
+        <string>F.Intrinsic.Control.If(V.Local.shold.trim,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Must enter an ADP Company Code")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.endif</string>
+        <string>V.Local.shold.Set(V.Screen.F_Main!txt2.text)</string>
+        <string>F.Intrinsic.Control.If(V.Local.shold.trim,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Must enter a Batch Number")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.endif</string>
+        <string>Function.Odbc.Connection!Conx.Openconnection(Variable.Ambient.pDSN,Variable.Ambient.PUser,Variable.Ambient.PPass)</string>
+        <string />
+        <string>Function.Intrinsic.String.Left(Variable.Passed.888888,8,Variable.Local.date)</string>
+        <string>Function.Intrinsic.String.Mid(Variable.Passed.888888,9,6,Variable.Local.time)</string>
+        <string>Function.Intrinsic.String.Mid(Variable.Passed.888888,15,2,Variable.Local.id)</string>
+        <string>Function.Intrinsic.string.Left(Variable.Screen.F_Main!txt1.Text,3,Variable.Local.hold)</string>
+        <string>Function.Intrinsic.Control.If(Variable.Local.hold.Length,&lt;,3)</string>
+        <string>	Function.intrinsic.string.concat(Variable.Local.hold,"_",Variable.Local.hold)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Function.Intrinsic.File.Gethandle(Variable.Local.File)</string>
+        <string>Function.Intrinsic.String.Concat(Variable.Caller.FilesDir,"\ADP","\EPI",Variable.Local.hold,Variable.Local.id,".csv",Variable.Local.Filename)</string>
+        <string>Function.Intrinsic.File.Openforwrite(Variable.Local.Filename,Variable.Local.File)</string>
+        <string />
+        <string>'Function.Intrinsic.File.Writeline(Variable.Local.File,"Co Code,Batch ID,File #, Reg Hours, O/T Hours,Hours 3 Code, Hours 3 Amount")</string>
+        <string>Function.Intrinsic.File.Writeline(Variable.Local.File,"Co Code,Batch ID,File #, Last Name, First Name, Dept, Rate, Reg Hours, O/T Hours, Other Hours")</string>
+        <string>f.Intrinsic.String.Build("SELECT EMPLOYEE, NAME, TYPE, HOURS, DEPT, SHIFT, EC FROM PYRL_LABOR_XFER WHERE RUN_CYMD = '{0}' and RUN_TIME = '{1}'",Variable.Local.date,Variable.Local.time,Variable.Local.query)</string>
+        <string>'Function.intrinsic.string.concat("SELECT EMPLOYEE, NAME, TYPE, HOURS,EC FROM PYRL_LABOR_XFER WHERE RUN_CYMD = '",Variable.Local.date,"' AND RUN_TIME = '",Variable.Local.time,"'",Variable.Local.query)</string>
+        <string>Function.Odbc.Connection!Conx.Openrecordsetro("rstX",Variable.Local.query)</string>
+        <string>Function.Intrinsic.Control.dountil(Variable.Odbc.Conx!Rstx.Eof,=,True)</string>
+        <string>	Variable.local.export.redim(0,10)</string>
+        <string>	Function.Intrinsic.string.Left(Variable.Screen.F_Main!txt1.Text,3,Variable.Local.hold)</string>
+        <string>	Gui.F_Main.txt1.Text(Variable.Local.hold)</string>
+        <string>	Variable.local.export(0).set(Variable.Local.hold)</string>
+        <string>	Function.Intrinsic.string.Left(Variable.Screen.F_Main!txt2.Text,8,Variable.Local.hold)</string>
+        <string>	Gui.F_Main.txt2.Text(Variable.Local.hold)</string>
+        <string>	Variable.local.export(1).set(Variable.Local.hold)</string>
+        <string>	Variable.local.export(2).set(Variable.Odbc.Conx!Rstx.Fieldval!EMPLOYEE)</string>
+        <string />
+        <string>	'get the employees first name and last name</string>
+        <string>	'split the name based on comma and set first and last name</string>
+        <string>	f.Intrinsic.String.Split(v.ODBC.Conx!rstX.FieldValLTrim!NAME," ",v.Local.sname)</string>
+        <string>	v.Local.export(3).Set(v.Local.sname(1))</string>
+        <string>	v.Local.export(4).Set(v.Local.sname(0))</string>
+        <string>	'5 Dept</string>
+        <string>	v.Local.export(5).Set(v.ODBC.Conx!rstX.FieldValTrim!DEPT)</string>
+        <string>	'6 Rate</string>
+        <string>	f.Intrinsic.String.Build("Select RATE from V_EMPLOYEE_MSTR where EMPLOYEE = '{0}' and SHIFT = '{1}'",v.ODBC.Conx!rstX.FieldValTrim!EMPLOYEE,v.ODBC.Conx!rstX.FieldValTrim!SHIFT,v.Local.ssql)</string>
+        <string>	Function.Odbc.Connection!Conx.Openrecordsetro("rstRate",Variable.Local.ssql)</string>
+        <string>	'set the RATE if found otherwise blank</string>
+        <string>	f.Intrinsic.Control.If(v.ODBC.Conx!rstRate.EOF,=,False)</string>
+        <string>		v.Local.export(6).Set(v.ODBC.Conx!rstRate.FieldValTrim!RATE)</string>
+        <string>	f.Intrinsic.Control.Else</string>
+        <string>		v.Local.export(6).Set("")</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	f.ODBC.Conx!rstRate.Close</string>
+        <string>	'9 Other</string>
+        <string>	Function.Intrinsic.Control.If(Variable.Odbc.Conx!Rstx.Fieldval!TYPE,=,"EC")</string>
+        <string>		Variable.local.export(9).set(Variable.Odbc.Conx!Rstx.Fieldval!Hours)</string>
+        <string>	Function.Intrinsic.Control.elseif(Variable.Odbc.Conx!Rstx.Fieldval!TYPE,=,"HT")</string>
+        <string>		Variable.local.export(9).set(Variable.Odbc.Conx!Rstx.Fieldval!Hours)</string>
+        <string>	Function.Intrinsic.Control.ElseIf(Variable.Odbc.Conx!Rstx.Fieldval!TYPE,=,"DT")</string>
+        <string>		Variable.local.export(9).set(Variable.Odbc.Conx!Rstx.Fieldval!Hours)</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	'7 Reg Hours</string>
+        <string>	'8 OT Hours</string>
+        <string>	Function.Intrinsic.Control.If(Variable.Odbc.Conx!Rstx.Fieldval!TYPE,=,"RT")</string>
+        <string>		Variable.local.export(7).set(Variable.Odbc.Conx!Rstx.Fieldval!Hours)</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string>	Function.Intrinsic.Control.If(Variable.Odbc.Conx!Rstx.Fieldval!TYPE,=,"OT")</string>
+        <string>		Variable.local.export(8).set(Variable.Odbc.Conx!Rstx.Fieldval!HOURS)</string>
+        <string>	Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	Variable.local.hold.set("")</string>
+        <string>	Function.Intrinsic.Control.For(Variable.Local.I,Variable.Local.export.Lbound,Variable.Local.export.Ubound,1)</string>
+        <string>		Function.intrinsic.control.if(Variable.Local.I,=,0)</string>
+        <string>			Variable.Local.hold.Set(Variable.Local.export(0))</string>
+        <string>		Function.intrinsic.control.elseif(Variable.Local.i,&lt;&gt;,0)</string>
+        <string>			Function.intrinsic.string.concat(Variable.Local.hold,",",Variable.Local.export(Variable.Local.I),Variable.Local.hold)</string>
+        <string>		Function.intrinsic.control.endif</string>
+        <string>	Function.intrinsic.control.next(Variable.Local.I)</string>
+        <string>	Function.Intrinsic.File.Writeline(Variable.Local.File,Variable.Local.Hold)</string>
+        <string>	Function.Odbc.Conx!Rstx.movenext</string>
+        <string>Function.intrinsic.control.loop</string>
+        <string>Function.Odbc.Conx!Rstx.Close</string>
+        <string />
+        <string>Function.Intrinsic.File.Closefile(Variable.Local.File)</string>
+        <string />
+        <string>Function.Odbc.Connection!Conx.Close</string>
+        <string>Function.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Process_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4406_ADP_Export.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	f.Intrinsic.Control.CallSub(unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Process.End</string>
+        <string />
+        <string>Program.Sub.unload.Start</string>
+        <string>Function.Intrinsic.Control.End</string>
+        <string />
+        <string>Program.Sub.unload.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$WAW$}$3/8/2017 8:57:34 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>88</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>40</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>42</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>44</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>46</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>49</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>51</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>176</Y>
+        </EndPoint>
+        <Text>Program.Sub.Process</Text>
+        <DisplayText>Program.Sub.Process</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>178</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>181</Y>
+        </EndPoint>
+        <Text>Program.Sub.unload</Text>
+        <DisplayText>Program.Sub.unload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>183</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>185</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
